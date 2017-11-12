@@ -1,5 +1,9 @@
 <?php
     require_once("./db/db.php");
+    if (!isset($_SESSION['user']))
+    {
+        header("Location: /");
+    }
     ?>
 
 <h1>Bienvenue <?php echo implode(getName($_SESSION['user'][2])) ?></h1>
