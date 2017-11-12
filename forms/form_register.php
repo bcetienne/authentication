@@ -6,7 +6,7 @@
      */
     ?>
 <h1>Enregistrez-vous</h1>
-<form action="" method="post">
+<form action="../template/register.php" method="post">
     <label for="nom">Nom :</label>
     <input id="nom" name="nom" type="text" placeholder="Dupont">
     <br>
